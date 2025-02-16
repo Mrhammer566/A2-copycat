@@ -433,8 +433,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a29e630f9e7b854c99446728477e118, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteSpawner: {fileID: 566411350}
-  noteTimings: []
+  notePrefab: {fileID: 5681277971855663078, guid: 6d62224133146b644a919f6f2aeece7d, type: 3}
+  spawnPoint: {fileID: 1477249652}
+  noteTimings:
+  - 2.5
+  - 3
+  - 3.5
+  - 4.5
+  noteSpeed: 5
 --- !u!4 &1474480705
 Transform:
   m_ObjectHideFlags: 0
